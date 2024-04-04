@@ -3,4 +3,5 @@ export interface SupplyItem {
     name: string;
     description: string;
     isPerishable: boolean;
+    base_cost: number;
 }
